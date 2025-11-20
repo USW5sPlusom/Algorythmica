@@ -1,8 +1,14 @@
-package all.algorythmica.task;
+package all.algorythmica.task.model;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
+@Entity
 public class taskModel {
+    @Id
     private String id;
+    @Column
     private String content;
 
     taskModel(){

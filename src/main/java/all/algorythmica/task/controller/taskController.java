@@ -1,4 +1,4 @@
-package all.algorythmica.task;
+package all.algorythmica.task.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
